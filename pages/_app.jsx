@@ -14,8 +14,7 @@ const { chains, publicClient } = configureChains(
     mainnet,
     polygon,
     optimism,
-    arbitrum,
-    sepolia
+    arbitrum
   ],
   [
     jsonRpcProvider({
